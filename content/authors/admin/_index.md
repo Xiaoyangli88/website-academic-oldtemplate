@@ -3,7 +3,7 @@
 title: Xiaoyang Li
 
 # Name pronunciation (optional)
-name_pronunciation: PhD Candidate in Economics
+# name_pronunciation: none
 
 # Full name (for SEO)
 first_name: Xiaoyang
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-# role: Chief Scientist
+ role: PhD Candidate in Economics
 
 # Organizations/Affiliations to display in Biography blox
 organizations: 
