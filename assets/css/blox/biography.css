@@ -10,8 +10,8 @@
   .avatar {
     width: auto;
     height: auto;
-    max-width: 225px;
-    max-height: 225px;
+    max-width: 400px;
+    max-height: 400px;
     object-fit: cover;
   }
 

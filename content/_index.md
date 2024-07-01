@@ -20,7 +20,6 @@ sections:
         url: uploads/resume.pdf
     design:
       css_class: sky
-      # color: black
       background:
         image:
           # Add your image background to `assets/media/`.
