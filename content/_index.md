@@ -21,16 +21,15 @@ sections:
     design:
       css_class: dark
       # color: black
-      # background:
-        # color: white
-        # image:
-        #   # Add your image background to `assets/media/`.
-        #   filename: stacked-peaks.svg
-        #   filters:
-        #     brightness: 1.0
-        #   size: cover
-        #   position: center
-        #   parallax: false
+      background:
+        image:
+          # Add your image background to `assets/media/`.
+          filename: white.png
+          filters:
+            brightness: 1.0
+          size: cover
+          position: center
+          parallax: false
   - block: markdown
     content:
       title: '📚 My Research'
