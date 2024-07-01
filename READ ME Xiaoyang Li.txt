@@ -2,11 +2,23 @@ READ ME for customizing Hugo template
 
 
 
-Change the website name:
+1) Change the website name:
 config/_default/hugo.yaml
 
 
-Change main page font:
+2) Change main page font:
 design:
 css_class: sky
 
+
+3) To insert a menu item that scrolls down the main page:
+
+Go to config/_default/menus.yaml
+Insert name, url, weight
+Then,
+Go to content/_index
+Under sections:
+content:
+title: Test title
+subtitle:
+text:
