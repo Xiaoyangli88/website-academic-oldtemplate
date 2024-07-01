@@ -8,8 +8,8 @@
   /* Custom avatar size on homepage */
 
   .avatar {
-    width: auto;
-    height: auto;
+    width: 400px;
+    height: 400px;
     max-width: 400px;
     max-height: 400px;
     object-fit: cover;
