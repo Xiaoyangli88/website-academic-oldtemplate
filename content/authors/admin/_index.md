@@ -181,4 +181,6 @@ awards:
 ---
 
 
-I am on the job market. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Welcome! I am a PhD Candidate in Economics at the University of Chicago. My research focuses on macroeconomics, innovation, and industrial organization. 
+
+I will be on the job market during the 2024–25 academic year.
