@@ -5,9 +5,8 @@
 
 # Appearance
 appearance:
-  # mode: system
-  # color: sky
-  theme_default: light
+  mode: system
+  color: emerald
 
 # SEO
 marketing:
