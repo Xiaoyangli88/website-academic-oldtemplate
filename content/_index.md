@@ -50,9 +50,15 @@ sections:
         folders:
           - publication
         featured_only: true
+  - block: markdown
+    id: test
+    content:
+      title: Test title
+      subtitle: ''
+      text: |-
+        Content of the test block 😃
     design:
-      view: article-grid
-      columns: 2
+      columns: '1'
   - block: collection
     content:
       title: Recent Publications
