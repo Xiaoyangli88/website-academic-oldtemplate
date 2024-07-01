@@ -1,0 +1,12 @@
+READ ME for customizing Hugo template
+
+
+
+Change the website name:
+config/_default/hugo.yaml
+
+
+Change main page font:
+design:
+css_class: sky
+
