@@ -9,18 +9,25 @@ design:
   spacing: "6rem"
 
 sections:
-    # block: about.avatar
-    # id: about   
-  - block: resume-biography-3
-    id: profile
+  - block: about.avatar
+    id: about
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: ""
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+      # Override your bio text from `authors/admin/_index.md`?
+      text:
+    design:
+      columns: '1'
+  # - block: resume-biography-3
+  #   id: profile
+  #   content:
+  #     # Choose a user profile to display (a folder name within `content/authors/`)
+  #     username: admin
+  #     text: ""
+  #     # Show a call-to-action button under your biography? (optional)
+  #     button:
+  #       text: Download CV
+  #       url: uploads/resume.pdf
     design:
       css_class: sky
       background:
