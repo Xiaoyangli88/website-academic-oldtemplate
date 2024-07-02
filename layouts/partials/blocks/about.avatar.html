@@ -1,6 +1,6 @@
-{{/* Hugo Blox: About - avatar variation */}}
-{{/* Documentation: https://hugoblox.com/blocks/ */}}
-{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+{{/* Wowchemy Blocks: About - avatar variation */}}
+{{/* Documentation: https://wowchemy.com/blocks/ */}}
+{{/* License: https://github.com/wowchemy/wowchemy-hugo-themes/blob/main/LICENSE.md */}}
 
 {{/* Initialise */}}
 {{ $page := .wcPage }}
@@ -16,7 +16,7 @@
 {{ $person_page_path := (printf "/authors/%s" $author) }}
 {{ $person_page := site.GetPage $person_page_path }}
 {{ if not $person_page }}
-  {{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your About widget and create an associated author page if one does not already exist. See https://docs.hugoblox.com/page-builder/#about " $person_page_path }}
+  {{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your About widget and create an associated author page if one does not already exist. See https://wowchemy.com/docs/page-builder/#about " $person_page_path }}
 {{end}}
 {{ $person := $person_page.Params }}
 {{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
@@ -24,13 +24,13 @@
 
 <div id="profile">
 
-  {{ if $avatar }}
-  <div class="avatar-wrapper" style="width: 400px; height: 400px;">
-  {{ $avatar_image := $avatar.Fill "3000x3000 Center" }}
+{{ if $avatar }}
+  <div class="avatar-wrapper" style="width: 300px; height: 220px;">
+  {{ $avatar_image :=  $avatar.Fill "3000x3000 Center" }}
   <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}"
-  style="width: 400px; height: 400px;">
-  {{with $person.status.icon}}{{.|emojify}}{{end}}
-  </div>
+       style="width: 300px; height: 300px;">
+  {{with $person.status.icon}}<span class="avatar-emoji">{{.|emojify}}</span>{{end}}
+</div>
   {{ end }}
 
   <div class="portrait-title">
