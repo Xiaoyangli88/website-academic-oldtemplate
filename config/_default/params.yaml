@@ -13,10 +13,10 @@ appearance:
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    local_business_type: 
+    org_name: 'University of Chicago'
+    description: 'PhD student in economics at the University of Chicago'
+    twitter: 
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -28,20 +28,31 @@ marketing:
     baidu: ''
 
 # Site header
+
 header:
   navbar:
     enable: true
-    blox: "navbar"
-    fixed_to_top: true
+    align: r
+    show_logo: true
+    show_language: false
+    show_day_night: false
     show_search: true
-    show_theme_chooser: true
-    logo:
-      text: "Xiaoyang Li"
+    highlight_active_link: true
+
+# header:
+#   navbar:
+#     enable: true
+#     blox: "navbar"
+#     fixed_to_top: true
+#     show_search: true
+#     show_theme_chooser: true
+#     logo:
+#       text: "Xiaoyang Li"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Xiaoyang Li. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
