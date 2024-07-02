@@ -29,25 +29,25 @@ marketing:
 
 # Site header
 
-header:
-  navbar:
-    enable: true
-    align: r
-    show_logo: true
-    show_language: false
-    show_day_night: false
-    show_search: true
-    highlight_active_link: true
-
 # header:
 #   navbar:
 #     enable: true
-#     blox: "navbar"
-#     fixed_to_top: true
+#     align: r
+#     show_logo: true
+#     show_language: false
+#     show_day_night: false
 #     show_search: true
-#     show_theme_chooser: true
-#     logo:
-#       text: "Xiaoyang Li"
+#     highlight_active_link: true
+
+header:
+  navbar:
+    enable: true
+    blox: "navbar"
+    fixed_to_top: true
+    show_search: true
+    show_theme_chooser: true
+    logo:
+      text: "Xiaoyang Li"
 
 # Site footer
 footer:
